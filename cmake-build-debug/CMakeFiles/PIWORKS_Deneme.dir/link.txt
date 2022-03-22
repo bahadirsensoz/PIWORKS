@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PIWORKS_Deneme.dir/objects.a
+C:\minGW\bin\ar.exe cr CMakeFiles\PIWORKS_Deneme.dir/objects.a @CMakeFiles\PIWORKS_Deneme.dir\objects1.rsp
+C:\minGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\PIWORKS_Deneme.dir/objects.a -Wl,--no-whole-archive -o PIWORKS_Deneme.exe -Wl,--out-implib,libPIWORKS_Deneme.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PIWORKS_Deneme.dir\linklibs.rsp
